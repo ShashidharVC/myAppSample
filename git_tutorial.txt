@@ -13,3 +13,14 @@ git add . : adds everything to the staging area.
 
 If a file that is currently in staging area is modified, then it automatically goes out of the staging area. so we need to add it again to 
 the staging area. If not, we can do "git checkout" to just continue
+
+git commit -m 'commit message': commits the changes to local repository
+
+git add is used to add a file to the queue to commit later.
+git commint saves the changes in the local git repo, after which it is pushed.
+
+.gitIgnore:
+make a ".gitIgnore" file and add the names along with full extension to this files of the files that you don't wanna add when you say "git add ."
+folders can be added too.
+
+git branch new_branch_name: creates a new branch
