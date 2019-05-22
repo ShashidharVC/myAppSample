@@ -1,0 +1,12 @@
+git init - initializes the current folder as git repository.
+
+git git config --global user.name 'shashi'
+git git config --global uer.email 'thevcsd04@gmail.com'
+
+git add index.html : adds index.html to the current git repository (loads it into the staging area). Showed in green text in terminal
+
+git rm --cached index.html: removes the file in form the staging area. showed in red text in terminal.
+
+git add*.html : adds all the html files to staging area
+
+git add . : adds everything to the staging area.
