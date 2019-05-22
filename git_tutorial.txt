@@ -24,3 +24,15 @@ make a ".gitIgnore" file and add the names along with full extension to this fil
 folders can be added too.
 
 git branch new_branch_name: creates a new branch
+
+code Edited in one branch won't reflect on the other branch even if they are the edited on the same file.
+
+git merge <existing_branch_name>: merges the current branch with the branch specified in the command here.
+
+git remote: lists the remote repositories
+
+git remote add <url from github for your repository>: connects your local repository to the remote on the github site.
+
+git remote rm origin: removes current remote.
+
+git push -u origin master: pushes the current committed files to the remote on github site.
