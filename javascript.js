@@ -1,1 +1,1 @@
-document.getElementById();
+console.log("hi");

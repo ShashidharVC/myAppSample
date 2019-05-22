@@ -5,8 +5,11 @@ git git config --global uer.email 'thevcsd04@gmail.com'
 
 git add index.html : adds index.html to the current git repository (loads it into the staging area). Showed in green text in terminal
 
-git rm --cached index.html: removes the file in form the staging area. showed in red text in terminal.
+git rm --cached index.html: removes the file from the staging area. showed in red text in terminal.
 
 git add*.html : adds all the html files to staging area
 
 git add . : adds everything to the staging area.
+
+If a file that is currently in staging area is modified, then it automatically goes out of the staging area. so we need to add it again to 
+the staging area. If not, we can do "git checkout" to just continue
